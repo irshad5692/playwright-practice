@@ -1,0 +1,41 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log
+
+# Environment variables
+.env
+.env.test
+.env.local
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Logs
+logs/
+*.log
+log*.gz
+
+# Build output
+dist/
+build/
+out/
+
+# Eclipse/Java specific
+.project
+.classpath
+.settings/
+*.class
+
